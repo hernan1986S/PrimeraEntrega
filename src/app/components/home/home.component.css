@@ -12,16 +12,19 @@
 }
 .content h1
 {
-    color: #fff;
+  line-height: 1.2;
+  color: #fff;
   font-size: 50px;
   font-weight: bold;
 }
 .content a{
   text-decoration: none;
   background-color: #fff;
-  color: rgb(141, 206, 30);
+  color: rgb(70, 5, 30);
   padding: 15px 20px;
   border-radius: 5px;
+  font-weight: bold;
+
 }
 .content a :hover
 {
@@ -37,7 +40,7 @@
 .stepBox h1{
   font-size: 50px;
   font-weight: bold;
-  color: #3fc060
+  color: #f1f1f1
 }
 .stepBox p{
   font-size: 20px;
@@ -45,9 +48,8 @@
   color: #fff;
 }
 .highlight{
-  color:#3fc060;
+  color:black;
   font-weight:bold;
-  text-decoration: underline;
   font-style: italic;
 }
 

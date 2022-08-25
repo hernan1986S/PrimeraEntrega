@@ -11,6 +11,12 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 
+import { ComponentsComponent } from './core/components/components.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
+
 
 @NgModule({
   declarations: [
@@ -21,12 +27,19 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
     MenuComponent,
     FooterComponent,
     NavbarComponent,
+    LoginComponent,
+    SignupComponent,
+
+    ComponentsComponent,
+
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
